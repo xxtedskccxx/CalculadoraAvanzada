@@ -148,6 +148,7 @@ namespace CalculadoraAvanzada
                     Console.WriteLine($"  [X] Error: {ex.Message}");
                     Console.ResetColor();
                 }
+
                 catch (DivideByZeroException ex)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
